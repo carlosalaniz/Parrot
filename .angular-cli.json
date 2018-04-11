@@ -9,7 +9,8 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "apple-icon.png"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -21,7 +22,12 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "./assets/js/vendor/jquery-2.1.4.min.js",
+        "./assets/js/popper.min.js",
+        "./assets/js/plugins.js",
+        "./assets/js/main.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
