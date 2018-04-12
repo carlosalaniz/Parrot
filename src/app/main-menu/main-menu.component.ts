@@ -1,5 +1,4 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import * as $ from 'jquery';
 @Component({
   // tslint:disable-next-line:component-selector
   selector: '[app-main-menu]',
@@ -9,9 +8,6 @@ import * as $ from 'jquery';
 export class MainMenuComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
-    $('#menuToggle').on('click', function(event) {
-      $('body').toggleClass('open');
-    });
   }
   constructor() { }
 

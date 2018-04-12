@@ -1,3 +1,5 @@
+
+
 <aside app-main-menu id="left-panel" class="left-panel"> </aside>
 <!-- /#left-panel -->
 
@@ -8,22 +10,14 @@
 <div id="right-panel" class="right-panel">
 
   <!-- Header-->
-  <header id="header" class="header">
-
-    <div class="header-menu">
-
-    </div>
-
-  </header>
+  <header app-top-menu id="header" class="header"></header>
   <!-- /header -->
   <!-- Header-->
 
-  <!-- <app-bread-crumbs></app-bread-crumbs> -->
+  <div app-bread-crumbs class="breadcrumbs"></div>
 
   <div class="content mt-3">
-    <!--Content-->
-
-    <!-- .content -->
+    <router-outlet></router-outlet>
   </div>
 
 </div>

@@ -23,10 +23,7 @@
         "styles.css"
       ],
       "scripts": [
-        "./assets/js/vendor/jquery-2.1.4.min.js",
-        "./assets/js/popper.min.js",
-        "./assets/js/plugins.js",
-        "./assets/js/main.js"
+
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
