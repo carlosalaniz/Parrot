@@ -1,7 +1,8 @@
 import { Component, OnInit, AfterViewInit } from "@angular/core";
 import * as $ from "jquery";
 @Component({
-  selector: "app-dashboard",
+  // tslint:disable-next-line:component-selector
+  selector: "[app-dashboard]",
   templateUrl: "./dashboard.component.html",
   styleUrls: ["./dashboard.component.css"]
 })
